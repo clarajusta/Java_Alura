@@ -3,7 +3,7 @@ public class TestaConversao {
 	
 	public static void main(String[] args) {
 		
-		float pontoFlutuante = 3.14f;
+		//float pontoFlutuante = 3.14f;
 		
 		double salario = 1270.50;
 		int valor = (int) salario; //uso do casting
