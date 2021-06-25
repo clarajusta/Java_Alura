@@ -3,10 +3,11 @@ public class TestaCondicional2 {
 
         System.out.println("Testando Condicionais");
 
-        int idade = 17;
+        int idade = 18;
         int quantidadePessoas = 2;
+        boolean acompanhado = quantidadePessoas>1;
 
-        if (idade>=18 || quantidadePessoas>1){
+        if (idade>=18 && acompanhado){
             System.out.println("Maior de idade ou acompanhado");
         }
 
