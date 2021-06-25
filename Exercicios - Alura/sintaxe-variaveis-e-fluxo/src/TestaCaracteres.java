@@ -13,7 +13,13 @@ public class TestaCaracteres {
         
         //Para compilar devemos fazer:
         valor = (char) (valor + 1);
-        System.out.println(valor); //não compila !
+        System.out.println(valor);
+
+        String palavra = "alura cursos ";
+        System.out.println(palavra);
+
+        palavra = palavra + 2021;
+        System.out.println(palavra);
 
     }
 }
