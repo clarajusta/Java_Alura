@@ -9,4 +9,6 @@ public class TestaMetodos2 {
         System.out.println(contaDaClara.titular.nome);
     }
 }
+//Conta contaDaClera = new Conta();
 //contadaClara.titular = new Cliente();
+//mais direto: contadaClara.titular.nome = "Clara";
