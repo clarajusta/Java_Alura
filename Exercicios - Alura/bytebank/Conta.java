@@ -1,11 +1,9 @@
-import javax.print.attribute.standard.NumberOfDocuments;
-
 public class Conta {
 
     int agencia;
     int numero;
-    String titular;
     double saldo;
+    Cliente titular;
     
     public void deposita(double valor) {
         this.saldo += valor;
