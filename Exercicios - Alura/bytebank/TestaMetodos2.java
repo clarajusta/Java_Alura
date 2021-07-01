@@ -7,10 +7,12 @@ public class TestaMetodos2 {
         clara.setCpf("222.222.222.-22");
 		clara.setProfissao("analista de engenharia de dados");
         
-        Conta contaDaClara = new Conta();
+        Conta contaDaClara = new Conta(1234, 123456);
         contaDaClara.setTitular(clara);
         System.out.println(contaDaClara.getTitular().getNome());
 		System.out.println(contaDaClara.getTitular());
+        
+        System.out.println(Conta.getTotal());
     }
 }
 //Conta contaDaClera = new Conta();

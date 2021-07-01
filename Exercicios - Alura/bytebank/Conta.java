@@ -4,7 +4,20 @@ public class Conta {
     private int numero;
     private double saldo;
     private Cliente titular;
+    private static int total = 0;
     
+    public Conta(int agencia, int numero) {
+        total++;
+        this.agencia = agencia;
+        this.numero = numero;
+        this.saldo = 100; //toda conta começa com saldo de 100
+        System.out.println("Criando uma conta");
+    }
+
+    public static int getTotal() {
+        return Conta.total;
+    }
+
     public void deposita(double valor) {
         this.saldo += valor;
     }
